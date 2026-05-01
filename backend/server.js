@@ -24,7 +24,7 @@ async function start() {
     });
   }
 
-  const PORT = process.env.PORT || 3001;
+  const PORT = process.env.PORT || 3465;
 app.listen(PORT, () => console.log(`TaskFlow running on port ${PORT}`));
 }
 
